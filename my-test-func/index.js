@@ -1,5 +1,5 @@
 module.exports = function (context, data) {
-    context.log('Webhook was triggered!');
+    context.log('Hello I made a GitHub push!');
 
     var key = data.key;
     var values = data.ArrayOfValues;
